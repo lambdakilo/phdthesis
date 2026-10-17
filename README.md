@@ -1,7 +1,8 @@
 # Doctoral thesis
 
 Akira Taguchi, Aalto University, School of Science, Department of Computer
-Science. Supervising professor: Vili Lehdonvirta.
+Science. Supervising professor: Vili Lehdonvirta. The research plan is in
+[`PLAN.md`](PLAN.md).
 
 ## Format
 
@@ -102,7 +103,8 @@ template instead. There is no Aalto template for Typst.
 
 Prose, meaning the thesis text in `chapters/`, `frontmatter/` apart from
 `frontmatter/initials.tex`, `metadata.tex`, `publications/list.tex` and
-`references.bib`, the figures in `figures/`, `CLAUDE.md` and this README, is
+`references.bib`, the figures in `figures/`, `PLAN.md`, `CLAUDE.md` and this
+README, is
 licensed under Creative Commons Attribution-ShareAlike 4.0 International. See
 [`LICENSE-CC-BY-SA-4.0`](LICENSE-CC-BY-SA-4.0).
 
