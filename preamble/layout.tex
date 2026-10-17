@@ -1,0 +1,34 @@
+% Unigrafia's spec for Aalto doctoral theses, written at A4 and printed at B5:
+% body Georgia 12 pt, headings Arial Bold 20/16/14 pt, captions and references
+% Arial 10 pt, margins at least 2.5 cm. Gelasio and TeX Gyre Heros are free
+% stand-ins with matching metrics, used where Georgia or Arial is not installed.
+\IfFontExistsTF{Georgia}{\setmainfont{Georgia}}{\setmainfont{Gelasio}}
+\IfFontExistsTF{Arial}{\setsansfont{Arial}}{\setsansfont{TeX Gyre Heros}}
+
+\linespread{1.035}
+
+\usepackage[a4paper, inner=30mm, outer=25mm, top=25mm, bottom=30mm,
+  headsep=8mm, marginparwidth=20mm, marginparsep=2mm]{geometry}
+
+\setkomafont{disposition}{\sffamily\bfseries}
+\setkomafont{part}{\fontsize{24pt}{29pt}\selectfont}
+\setkomafont{chapter}{\fontsize{20pt}{24pt}\selectfont}
+\setkomafont{section}{\fontsize{16pt}{19pt}\selectfont}
+\setkomafont{subsection}{\fontsize{14pt}{17pt}\selectfont}
+\setkomafont{subsubsection}{\normalsize}
+\setkomafont{caption}{\sffamily\fontsize{10pt}{12pt}\selectfont}
+\setkomafont{captionlabel}{\bfseries}
+\setkomafont{pagehead}{\normalfont\sffamily\small}
+\setkomafont{pagefoot}{\normalfont\sffamily\small}
+\setkomafont{pagenumber}{}
+
+\renewcommand*{\bibfont}{\sffamily\fontsize{10pt}{12pt}\selectfont}
+\renewcommand*{\mkbibacro}[1]{#1}
+\urlstyle{same}
+
+\pagestyle{scrheadings}
+\clearpairofpagestyles
+\ohead{\headmark}
+\ofoot*{\pagemark}
+
+\setlist{itemsep=0.25\baselineskip}

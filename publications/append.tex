@@ -1,0 +1,17 @@
+\addpart{Publications}
+
+\renewcommand{\Publication}[5]{%
+  \cleardoublepage
+  \IfFileExists{publications/#1.pdf}{%
+    \includepdf[pages=-,addtotoc={1,chapter,0,{Publication #1: #5},pub:#1}]%
+      {publications/#1.pdf}%
+  }{%
+    \addchap{Publication #1: #5}\label{pub:#1}
+    #2. #3. \textit{#4}.
+
+    \bigskip
+    \textit{Placeholder. Save the article as publications/#1.pdf to include it
+      here.}
+  }%
+}
+\input{publications/list}

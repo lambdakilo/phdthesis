@@ -1,0 +1,24 @@
+% The title and abstract pages must be Aalto's uniform ones. Fill in Unigrafia's
+% "initials" Word template, export it to PDF as initials/initials.pdf, and it
+% replaces the draft pages below.
+\IfFileExists{initials/initials.pdf}{%
+  \includepdf[pages=-]{initials/initials.pdf}%
+}{%
+  \begin{titlepage}
+    \sffamily
+    \raggedright
+    {\small \University\par \School\par \Department\par}
+    \vspace{0.25\textheight}
+    {\fontsize{24pt}{29pt}\selectfont\bfseries \ThesisTitle\par}
+    \vspace{1em}
+    {\Large \ThesisSubtitle\par}
+    \vspace{3em}
+    {\Large \ThesisAuthor\par}
+    \vfill
+    {\small
+      DOCTORAL THESES\par
+      Draft of \today. Replace these pages with initials/initials.pdf.\par}
+  \end{titlepage}
+  \cleardoublepage
+  \input{frontmatter/abstract}
+}
