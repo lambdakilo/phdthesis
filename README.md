@@ -68,6 +68,7 @@ make watch
 | `publications/I.pdf` ... | The articles; a placeholder page stands in until each exists |
 | `initials/initials.pdf` | Aalto's uniform title and abstract pages, once exported |
 | `references.bib` | Bibliography, author-year style |
+| `PROMPTS.md` | Every prompt behind the commits, with its commit, generated from the commit messages |
 
 ## Before printing
 
@@ -103,9 +104,9 @@ template instead. There is no Aalto template for Typst.
 
 Prose, meaning the thesis text in `chapters/`, `frontmatter/` apart from
 `frontmatter/initials.tex`, `metadata.tex`, `publications/list.tex` and
-`references.bib`, the figures in `figures/`, `PLAN.md`, `CLAUDE.md` and this
-README, is
-licensed under Creative Commons Attribution-ShareAlike 4.0 International. See
+`references.bib`, the figures in `figures/`, `PLAN.md`, `PROMPTS.md`,
+`CLAUDE.md` and this README, is licensed under Creative Commons
+Attribution-ShareAlike 4.0 International. See
 [`LICENSE-CC-BY-SA-4.0`](LICENSE-CC-BY-SA-4.0).
 
 Everything else is licensed under the GNU Affero General Public License,
