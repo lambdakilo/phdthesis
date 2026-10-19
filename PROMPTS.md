@@ -5,9 +5,16 @@ with its commit and pull request. Square brackets mark what was left out or reda
 commit without a prompts section is left out. This file is generated from the commit messages,
 so a change by hand is lost at the next commit.
 
-## Add PROMPTS.md with the prompts behind every commit
+## Publish the thesis PDF on GitHub Pages like mscthesis
 
 2026-10-19, [the commit that last changed this file](https://github.com/lambdakilo/phdthesis/commits/main/PROMPTS.md), model claude-opus-5-5, effort xhigh.
+
+**8.**
+> host my pdf the same way i did on mscthesis on github pages
+
+## Add PROMPTS.md with the prompts behind every commit
+
+2026-10-19, commit [1c14103](https://github.com/lambdakilo/phdthesis/commit/1c141035241f8db8e8e5b0f84f12ef8c1bfbab91), model claude-opus-5-5, effort xhigh.
 
 **7.**
 > same thing for the prompts.md on this repo
@@ -64,5 +71,6 @@ so a change by hand is lost at the next commit.
 - ai: artificial intelligence
 - ccbysa4.0: Creative Commons Attribution-ShareAlike 4.0 International
 - llms: large language models
+- pdf: Portable Document Format
 - phd: Doctor of Philosophy
 - repo: repository

@@ -33,6 +33,9 @@ keys, so the PDF language is set through hyperref instead.
   and the appended part both read it.
 - Sizes, fonts and margins in `preamble/layout.tex` follow Unigrafia's spec for
   Aalto doctoral theses. Check the spec before changing them.
+- `make` copies the PDF to `thesis.pdf` at the root, which GitHub Pages serves
+  from `main` at https://lambdakilo.github.io/phdthesis/thesis.pdf. Rebuild it
+  and commit it with every change to what the PDF shows.
 - British English in the text.
 - Prose is CC BY-SA 4.0 and everything else AGPL-3.0-or-later. A new prose
   file outside the paths the README's License section names gets added there.

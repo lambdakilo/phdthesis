@@ -10,8 +10,10 @@ endif
 
 .PHONY: pdf summary print watch clean
 
+# GitHub Pages serves the copy committed at the root.
 pdf:
 	$(LATEXMK) thesis.tex
+	cp build/thesis.pdf thesis.pdf
 
 summary:
 	$(LATEXMK) -jobname=summary thesis.tex

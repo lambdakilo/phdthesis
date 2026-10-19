@@ -4,6 +4,10 @@ Akira Taguchi, Aalto University, School of Science, Department of Computer
 Science. Supervising professor: Vili Lehdonvirta. The research plan is in
 [`PLAN.md`](PLAN.md).
 
+The latest draft is at
+[lambdakilo.github.io/phdthesis/thesis.pdf](https://lambdakilo.github.io/phdthesis/thesis.pdf),
+served by GitHub Pages from the `thesis.pdf` committed on `main`.
+
 ## Format
 
 An article-based thesis: an overview of six chapters followed by Publications
@@ -26,7 +30,8 @@ scientific contribution. Chapters 1 to 6 and the front matter cover these.
 
 Needs TeX Live with LuaLaTeX, biber and latexmk (MacTeX on macOS), or Docker.
 
-Full thesis with the publications appended, to `build/thesis.pdf`:
+Full thesis with the publications appended, to `build/thesis.pdf`, copied to
+`thesis.pdf` at the root for GitHub Pages:
 
 ```sh
 make
@@ -68,6 +73,7 @@ make watch
 | `publications/I.pdf` ... | The articles; a placeholder page stands in until each exists |
 | `initials/initials.pdf` | Aalto's uniform title and abstract pages, once exported |
 | `references.bib` | Bibliography, author-year style |
+| `thesis.pdf` | The latest full build, committed for GitHub Pages |
 | `PROMPTS.md` | Every prompt behind the commits, with its commit, generated from the commit messages |
 
 ## Before printing
@@ -104,13 +110,14 @@ template instead. There is no Aalto template for Typst.
 
 Prose, meaning the thesis text in `chapters/`, `frontmatter/` apart from
 `frontmatter/initials.tex`, `metadata.tex`, `publications/list.tex` and
-`references.bib`, the figures in `figures/`, `PLAN.md`, `PROMPTS.md`,
-`CLAUDE.md` and this README, is licensed under Creative Commons
-Attribution-ShareAlike 4.0 International. See
+`references.bib`, the figures in `figures/`, the built `thesis.pdf`,
+`PLAN.md`, `PROMPTS.md`, `CLAUDE.md` and this README, is licensed under
+Creative Commons Attribution-ShareAlike 4.0 International. See
 [`LICENSE-CC-BY-SA-4.0`](LICENSE-CC-BY-SA-4.0).
 
 Everything else is licensed under the GNU Affero General Public License,
 version 3 or (at your option) any later version. See [`LICENSE`](LICENSE).
 
 The articles in `publications/` and the title and abstract pages in
-`initials/` keep the terms of their publishers and of Aalto University.
+`initials/` keep the terms of their publishers and of Aalto University, also
+where they appear in `thesis.pdf`.
