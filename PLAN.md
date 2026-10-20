@@ -1,6 +1,7 @@
 # Thesis plan
 
-Planning stage, before a study right. This file records the research plan.
+Planning stage, before a study right. The university and the supervisors are
+not settled. This file records the research plan and the route to admission.
 The thesis itself is `thesis.tex` and its chapters.
 
 ## Working title
@@ -8,8 +9,11 @@ The thesis itself is `thesis.tex` and its chapters.
 Dual-Use by Design: Benefits, Harms, and Governance in Decentralized Freedom
 Technologies
 
-An alternative title under consideration: After Exit: Private Ordering and
-Regulatory Reach in Provider-less Digital Infrastructure.
+## Aim
+
+Do freedom technologies such as Bitcoin and Nostr do more good than harm, for
+whom, and what happens when states respond? The thesis treats these as open
+questions. A finding either way is a result.
 
 ## Problem
 
@@ -21,28 +25,82 @@ States respond by reaching for the people who build and run these systems, as
 in the prosecution of the Samourai Wallet developers. This dual-use dynamic is
 asserted often and measured rarely.
 
+## Route to the degree
+
+The plan takes the shortest credible route: part-time and self-funded
+alongside work in software, article-based with the smallest number of
+articles the programme accepts, and venues chosen for fit and acceptance
+rather than prestige.
+
+### Programmes
+
+Every programme below wants a supervisor's written commitment before the
+application is evaluated, so the supervisor comes first and the programme
+follows from where the supervisor is.
+
+a. Tampere University, Doctoral Programme of Humans and Technologies,
+   Information Studies option. Information Studies there already researches
+   the dark web, Tor and blockchain-enabled crime. Applications are rolling
+   and reviewed four times a year; the next deadlines are 22 January 2027
+   (study right from 2 March 2027) and 30 April 2027 (from 2 August 2027). The
+   responsible supervisor must agree in writing to the research plan
+   submitted. Part-time study is allowed with a reason given. The faculty sets
+   the number of articles; a monograph is accepted.
+
+b. University of Helsinki, Doctoral Programme in Science, computer science.
+   Rounds 3 to 16 November 2026, 12 to 25 January 2027 and 2 to 15 April
+   2027. A signed supervision agreement from the main supervisor and a
+   coordinating academic, a professor or docent of the Faculty of Science, is
+   required. Self-funded and part-time plans must show a credible timeline.
+   About three articles, most of them published or accepted, or a monograph.
+
+c. LUT University, Doctoral Programme in Engineering Science, software
+   engineering. Rolling admission, at least two supervisors committed. At
+   least three publications, two of them published or accepted; conference
+   papers count; monograph accepted.
+
+### What a Tampere application holds
+
+- A research plan of at most 6 pages plus 2 pages of references, 12 pt, 2.5
+  cm margins, with the supervisor's name and the research field; an
+  over-length plan is rejected.
+- A study and supervision plan, a one-page motivation letter that covers the
+  career the degree supports, a CV, degree certificates and transcripts, and
+  up to two referees.
+- A statement of how AI was used in writing the plan, if it was.
+
+### What keeps it short
+
+- Three articles, the number Helsinki recommends and the least LUT accepts;
+  at Tampere the faculty decides. The systematization of dual-use mechanisms
+  becomes the framework chapter of the overview instead of a fourth article.
+- Article I needs no ethical review: the court record, agency guidance and
+  model outputs are public material, so it can be written while the review
+  for the interview studies is pending.
+- One interview campaign feeds Articles II and III: one ethics application,
+  one consent process and one analysis pipeline, with relay operators and
+  developers recruited from the same communities.
+- For an information studies programme, the interview articles are framed as
+  information practices: how operators share knowledge of harmful content and
+  how developers seek and weigh legal information under prosecution risk.
+
 ## Research questions
 
 ### RQ1
 
-How are benefits and harms distributed across users and third parties in
-decentralized freedom technologies, and by what proxies can they be measured?
+How do states reach provider-less infrastructure through its developers, and
+how accurately do public accounts, LLM answers among them, describe that
+reach? Article I.
 
 ### RQ2
 
-How is content and conduct governed in practice in systems designed to resist
-governance? What do Nostr relay operators do when harmful content arrives?
+How do the people who run Nostr relays weigh the benefits and harms that pass
+through them, and what do they do when harmful content arrives? Article II.
 
 ### RQ3
 
-How do states reach provider-less infrastructure through its developers, and
-how do developers of non-custodial privacy software interpret and respond to
-prosecutions such as those of Samourai Wallet and Tornado Cash?
-
-### RQ4
-
-How does generative AI change who can build decentralized and
-privacy-preserving software, and what does that cost maintainers?
+How do developers of non-custodial privacy software read and respond to
+prosecutions such as those of Samourai Wallet and Tornado Cash? Article III.
 
 ## Methods: work that needs a person
 
@@ -53,51 +111,13 @@ represented. Literature scouting, repository mining and network measurement
 can be partly automated. Gaining access, building trust, following up in a
 conversation and weighing what a participant may safely say cannot.
 
-The same holds for the theses Vili Lehdonvirta has supervised: both doctorates
-completed under him at Oxford rest on interviews, ethnography, document
-analysis and surveys (Albert 2023; Ramizo 2021).
-
 ## Articles
 
-Article-based thesis. The application of September 2026 planned four articles
-and an optional fifth:
+### Article I: The Samourai Wallet prosecution and its public record
 
-### Article I: Systematization of dual-use mechanisms
-
-A systematization of how design choices such as open relays, permissionless
-payment and metadata-hiding encryption produce paired benefits and harms,
-including third-party externalities. Extends the dual-use framing of Tor
-research to current systems. RQ1.
-
-### Article II: Relay operators as reluctant moderators
-
-Semi-structured interviews with 15 to 25 Nostr relay operators, and a corpus
-of published relay policies and NIP-56 reporting practice, analysed
-thematically. The first empirical account of governance in the relay layer.
-RQ2.
-
-### Article III: Measuring governance on Nostr
-
-Longitudinal measurement of governance artefacts: report events, relay policy
-changes, spam and scam indicators, moderation actions. The unit of analysis is
-governance metadata, never the content governed. The collectors are released
-as free software and run as a public governance observatory. RQ1 and RQ2.
-
-### Article IV: Generative AI and the one-person freedom-tech project
-
-Mining of Bitcoin and Nostr free software repositories (share of solo
-maintainers, contributor survival, before and after 2022, AI-assisted
-contributions) combined with developer interviews. RQ4.
-
-### Optional Article V: Provider-less architectures and EU child-protection law
-
-What the proposed CSA Regulation can and cannot reach, and which
-prevention-oriented alternatives the evidence supports, with a legal scholar
-as co-author.
-
-## Proposed changes, October 2026
-
-### A study of developer prosecutions
+A case study of the public record against FinCEN's guidance, the Department
+of Justice's 2025 policy and the Tornado Cash cases, with an audit of how
+LLMs describe the case. RQ1.
 
 The founders of Samourai Wallet, a non-custodial Bitcoin wallet with the
 Whirlpool coinjoin and Ricochet services, were charged in April 2024 with
@@ -141,48 +161,70 @@ Hill to four.
   deterred". Coin Center and the Bitcoin Policy Institute have argued that the
   prosecution misapplied the law.
 
-#### Research question
-
-Was the Samourai prosecution consistent with FinCEN's guidance, the
-Department of Justice's own 2025 policy and comparable cases, such as those
-of Roman Storm and Alexey Pertsev of Tornado Cash? How do developers of
-non-custodial privacy software read and respond to these prosecutions?
-
 #### Design
 
-- A case study of the public record: indictments, letters, the sentencing
-  memorandum, hearing transcripts, agency guidance and policy.
-- Semi-structured interviews with developers of wallets, coinjoin
-  coordinators and other Bitcoin and Nostr privacy tools, and with lawyers and
-  policy advocates who followed the cases: what they changed, stopped, moved
-  or kept building afterwards. Interviewing Rodriguez and Hill would need
-  prison access and separate ethical review; the study does not depend on it.
-- A short audit of how LLMs describe the case: repeated prompts to several
-  models, each claim compared with the court record. Here AI is the object of
-  study, not a tool for it.
+- The public record: indictments, letters, the sentencing memorandum, hearing
+  transcripts, agency guidance and policy, compared with the Storm and
+  Pertsev cases.
+- The LLM audit: repeated prompts to several models, each claim compared with
+  the court record. Here AI is the object of study, not a tool for it.
 
 The study leaves the answer open. If the record shows the case was pursued
 to set an example, a peer-reviewed account of that record is what later LLM
 answers can draw on. If it does not, that is a finding too.
 
-It connects to Lehdonvirta's Cloud Empires (2022), whose chapter 8,
-"Cryptocracy", examines the attempt to replace politics with technology. In
-interviews he has argued that Bitcoin relocated trusted authority to
-developers, miners and exchanges and did not remove it. The prosecutions show
-state authority reaching back into these systems through their developers.
+It connects to Cloud Empires (Lehdonvirta 2022), whose chapter 8,
+"Cryptocracy", examines the attempt to replace politics with technology. The
+prosecutions show state authority reaching back into these systems through
+their developers.
 
-### More weight on interviews
+### Article II: Relay operators as reluctant moderators
 
-Fold Article III's measurement into Article II as its quantitative half, and
-take the freed article slot for the prosecution study. Three of the four
-articles would then rest on interviews (II, the prosecution study and IV),
-with Article I as the conceptual frame. The governance observatory stays as
-infrastructure that supports Article II and outlives the thesis.
+Semi-structured interviews with 15 to 25 Nostr relay operators and a corpus of
+published relay policies and NIP-56 reporting practice, analysed thematically.
+Counts of governance artefacts over time, such as report events and policy
+changes, give the interviews a quantitative backdrop; the unit is governance
+metadata, never the content governed. RQ2.
+
+### Article III: Building under prosecution risk
+
+Semi-structured interviews with developers of wallets, coinjoin coordinators
+and other Bitcoin and Nostr privacy tools, and with lawyers and policy
+advocates who followed the Samourai and Tornado Cash cases: what developers
+changed, stopped, moved or kept building afterwards. Interviewing Rodriguez
+and Hill would need prison access and separate ethical review; the study does
+not depend on it. RQ3.
+
+### Held in reserve
+
+Used only if the programme asks for a fourth article or one of the three
+fails:
+
+- Generative AI and the one-person freedom-tech project: mining of Bitcoin
+  and Nostr repositories for solo maintainers, contributor survival and
+  AI-assisted contributions before and after 2022.
+- Provider-less architectures and the EU's proposed CSA Regulation, with a
+  legal scholar as co-author.
+
+## Venues
+
+Each venue has a Publication Forum (JUFO) level of at least 1, so it counts
+in Finnish evaluation. Acceptance rates are the venues' own figures.
+
+| Article | First choice | Fallback |
+|---|---|---|
+| I | HICSS cybercrime minitrack, run until at least 2025 with a focus on the dark web and blockchain (JUFO 1; 46.6% overall, year not stated) | Internet Policy Review (JUFO 1), Ledger (JUFO 1) |
+| II | Information Research (JUFO 2) | Proceedings of ASIS&T (JUFO 1), CSCW (JUFO 2; 30.5% in 2026) |
+| III | CHASE (JUFO 1; 35% in 2025) or ICSE SEIS (34% in 2023) | HICSS (JUFO 1) |
+| Reserve | MSR (JUFO 1; 29% in 2025) | Financial Cryptography workshops (LNCS, JUFO 1) |
+
+IEEE ICBC and Frontiers in Blockchain are level 0 and count for nothing.
 
 ## Ethics and data
 
-- Every interview study goes through the university's ethical review:
-  informed consent, the right to withdraw, pseudonymity by default.
+- The interview studies go through the university's ethical review: informed
+  consent, the right to withdraw, pseudonymity by default. Article I has no
+  human participants.
 - Developers of privacy software may carry legal risk. Interviews ask about
   their views, practice and decisions, never about unlawful acts of their own,
   and identifying keys are stored apart from transcripts.
@@ -194,30 +236,50 @@ infrastructure that supports Article II and outlives the thesis.
 
 ## Timetable
 
-Part-time, six years, interviews front-loaded:
+Part-time, six years:
 
-- 2027: ethics review; relay-operator interviews and policy corpus; Article I
-  draft.
-- 2028: Article II and Article I submitted; prosecution study interviews.
-- 2029: prosecution study submitted; optional legal article.
-- 2030: Article IV repository mining and developer interviews.
-- 2031: Article IV submitted; overview written.
-- 2032: pre-examination and public defence.
+- November 2026 to January 2027: supervisor agreed; research plan written to
+  the programme's format; application by the January deadline.
+- 2027: study right; Article I written and submitted; ethics application for
+  the interview campaign.
+- 2028: interview campaign with relay operators and developers; Article II
+  submitted.
+- 2029: Article III submitted; coursework completed.
+- 2030: overview drafted; reserve article only if needed.
+- 2031: overview finished; pre-examination.
+- 2032: public defence.
 
 ## Sources
 
-### Supervision and fit
+### Admission
 
-- Albert, J. (2023). Categorizing labour: how platforms and workers
-  co-construct digital markets. DPhil thesis, University of Oxford:
-  https://ora.ox.ac.uk/objects/uuid:09c05a29-30c4-4158-90b2-10a13ec6c144
-- Ramizo, G. (2021). Ubering while poor: the socio-political implications of
-  digital platforms in underdeveloped contexts. DPhil thesis, University of
-  Oxford: https://ora.ox.ac.uk/objects/uuid:22af3f3d-6c4e-4297-968d-10f0ccbc4247
-- Lehdonvirta, V. (2022). Cloud Empires. MIT Press:
-  https://mitpress.mit.edu/9780262047227/cloud-empires/
-- Lehdonvirta, V. (2022). Interview on Bitcoin and governance, Rational
-  Reminder podcast: https://rationalreminder.ca/podcast/crypto15
+- Tampere University, Doctoral Programme of Humans and Technologies,
+  admission criteria, 26 October 2026 to 22 January 2027:
+  https://opintopolku.fi/konfo/en/hakukohde/1.2.246.562.20.00000000000000093850/valintaperuste
+- Tampere University, guidelines for the doctoral dissertation:
+  https://opiskelijanopas.tuni.fi/en/tampere-university/doctoral-studies/doctoral-dissertation-and-public-defence/guidelines-doctoral-dissertation
+- University of Helsinki, Doctoral Programme in Science, admissions:
+  https://www.helsinki.fi/en/admissions-and-education/apply-doctoral-programmes/doctoral-programmes/doctoral-programme-science/admissions-doctoral-studies
+- University of Helsinki, Faculty of Science, PhD thesis:
+  https://www.helsinki.fi/en/faculty-science/faculty/phd-thesis
+- LUT University, application processes for doctoral programmes:
+  https://elut.lut.fi/en/doctoral-studies/application-processes-doctoral-programmes
+- LUT University, dissertation regulations 2024:
+  https://elut.lut.fi/sites/default/files/category-page/2024-05/LUT_Dissertation_regulations_2024_0.pdf
+
+### Venues
+
+- Publication Forum levels, from the JUFO API behind
+  https://jfp.csc.fi/jufoportaali
+- HICSS: https://hicss.hawaii.edu/tracks-and-minitracks/
+- HICSS-58 cybercrime minitrack:
+  https://aisel.aisnet.org/hicss-58/in/cybercrime
+- CSCW 2026 decisions: https://cscw.acm.org/2026/blog/finaldecisions.html
+- CHASE 2025: https://ieeexplore.ieee.org/document/11024478
+- ICSE SEIS 2023: https://ieeexplore.ieee.org/document/10173875
+- MSR 2025: https://ieeexplore.ieee.org/document/11025537
+- Ledger: https://ledger.pitt.edu/ojs/ledger/about
+- Internet Policy Review: https://policyreview.info/authors
 
 ### Samourai Wallet case
 
@@ -255,8 +317,10 @@ Part-time, six years, interviews front-loaded:
   ECLI:NL:RBOBR:2024:2069:
   https://uitspraken.rechtspraak.nl/details?id=ECLI:NL:RBOBR:2024:2069
 
-### Literature from the application
+### Literature
 
+- Lehdonvirta, V. (2022). Cloud Empires. MIT Press:
+  https://mitpress.mit.edu/9780262047227/cloud-empires/
 - Jardine, Lindner & Owenson (2020). The potential harms of the Tor anonymity
   network cluster disproportionately in free countries. PNAS 117(50):
   https://doi.org/10.1073/pnas.2011893117

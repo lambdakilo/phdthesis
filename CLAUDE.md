@@ -32,7 +32,11 @@ keys, so the PDF language is set through hyperref instead.
 - `publications/list.tex` is the only list of publications. The front matter
   and the appended part both read it.
 - Sizes, fonts and margins in `preamble/layout.tex` follow Unigrafia's spec for
-  Aalto doctoral theses. Check the spec before changing them.
+  Aalto doctoral theses, the first target, until the university is settled.
+  Check the spec before changing them.
+- Name a supervisor, an advisor or a university as the thesis's own in the
+  repository only once they have agreed. Until then `metadata.tex` and the
+  README say "to be decided", and candidates stay out of the public files.
 - `make` copies the PDF to `thesis.pdf` at the root, which GitHub Pages serves
   from `main` at https://lambdakilo.github.io/phdthesis/thesis.pdf. Rebuild it
   and commit it with every change to what the PDF shows.

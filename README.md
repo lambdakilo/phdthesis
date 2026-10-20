@@ -1,8 +1,9 @@
 # Doctoral thesis
 
-Akira Taguchi, Aalto University, School of Science, Department of Computer
-Science. Supervising professor: Vili Lehdonvirta. The research plan is in
-[`PLAN.md`](PLAN.md).
+Akira Taguchi. Dual-Use by Design: Benefits, Harms, and Governance in
+Decentralized Freedom Technologies. The university and the supervising
+professor are not settled yet. The research plan and the programmes under
+consideration are in [`PLAN.md`](PLAN.md).
 
 The latest draft is at
 [lambdakilo.github.io/phdthesis/thesis.pdf](https://lambdakilo.github.io/phdthesis/thesis.pdf),
@@ -11,17 +12,14 @@ served by GitHub Pages from the `thesis.pdf` committed on `main`.
 ## Format
 
 An article-based thesis: an overview of six chapters followed by Publications
-I to III. The Aalto Doctoral Programme in Science accepts this form, a
-monograph, or a research-paper-based thesis, and sets no fixed number of
-articles; that is agreed with the supervising professor
-([programme rules](https://www.aalto.fi/en/programmes/aalto-doctoral-programme-in-science/doctoral-thesis)).
+I to III. Every programme in the plan accepts this form, and the number of
+articles is agreed with the supervising professor.
 
-Three studies tied together by an integrating argument is also the shape of
-the two doctorates completed under Lehdonvirta at Oxford:
-[Albert 2023](https://ora.ox.ac.uk/objects/uuid:09c05a29-30c4-4158-90b2-10a13ec6c144)
-and [Ramizo 2021](https://ora.ox.ac.uk/objects/uuid:22af3f3d-6c4e-4297-968d-10f0ccbc4247).
+The layout, the title pages and the printing steps below follow Aalto
+University's rules, the first target. They change to the chosen university's
+once a supervisor has agreed.
 
-The overview must state the research problem, goals, methods and key findings,
+Under Aalto's rules the overview must state the research problem, goals, methods and key findings,
 assess the significance for the discipline, list the publications, describe
 the author's own contribution to each, and state the thesis's specific
 scientific contribution. Chapters 1 to 6 and the front matter cover these.
