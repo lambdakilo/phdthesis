@@ -1,8 +1,8 @@
 # Thesis plan
 
 Planning stage, before a study right. The university and the supervisors are
-not settled. This file records the research plan and the route to admission.
-The thesis itself is `thesis.tex` and its chapters.
+not settled. This file records the research plan and the programmes under
+consideration. The thesis itself is `thesis.tex` and its chapters.
 
 ## Working title
 
@@ -25,18 +25,16 @@ States respond by reaching for the people who build and run these systems, as
 in the prosecution of the Samourai Wallet developers. This dual-use dynamic is
 asserted often and measured rarely.
 
-## Route to the degree
+## Doctoral programme and supervision
 
-The plan takes the shortest credible route: part-time and self-funded
-alongside work in software, article-based with the smallest number of
-articles the programme accepts, and venues chosen for fit and acceptance
-rather than prestige.
+The thesis is planned as a part-time doctorate alongside work in software
+development, funded from salary, with working time reduced once the doctoral
+work starts.
 
 ### Programmes
 
-Every programme below wants a supervisor's written commitment before the
-application is evaluated, so the supervisor comes first and the programme
-follows from where the supervisor is.
+Each programme below asks for a supervisor's written commitment before the
+application is evaluated, so the choice of programme follows the supervision.
 
 a. Tampere University, Doctoral Programme of Humans and Technologies,
    Information Studies option. Information Studies there already researches
@@ -69,20 +67,21 @@ c. LUT University, Doctoral Programme in Engineering Science, software
   up to two referees.
 - A statement of how AI was used in writing the plan, if it was.
 
-### What keeps it short
+### Design
 
-- Three articles, the number Helsinki recommends and the least LUT accepts;
-  at Tampere the faculty decides. The systematization of dual-use mechanisms
-  becomes the framework chapter of the overview instead of a fourth article.
-- Article I needs no ethical review: the court record, agency guidance and
-  model outputs are public material, so it can be written while the review
-  for the interview studies is pending.
-- One interview campaign feeds Articles II and III: one ethics application,
-  one consent process and one analysis pipeline, with relay operators and
-  developers recruited from the same communities.
-- For an information studies programme, the interview articles are framed as
-  information practices: how operators share knowledge of harmful content and
-  how developers seek and weigh legal information under prosecution risk.
+- Three articles and an overview. The systematization of dual-use
+  mechanisms is the overview's framework chapter, where it ties the three
+  studies together.
+- Article I comes first because it works with public material alone, the
+  court record, agency guidance and model outputs, so it proceeds while the
+  ethical review for the interview studies is under way.
+- Articles II and III share one interview campaign under one ethics
+  application and one consent process. Relay operators and developers come
+  from the same communities, and one design lets the thesis compare how each
+  group meets harm and legal risk.
+- The interview studies examine information practices: how operators share
+  knowledge of harmful content, and how developers seek and weigh legal
+  information under prosecution risk.
 
 ## Research questions
 
@@ -195,10 +194,10 @@ changed, stopped, moved or kept building afterwards. Interviewing Rodriguez
 and Hill would need prison access and separate ethical review; the study does
 not depend on it. RQ3.
 
-### Held in reserve
+### Further studies
 
-Used only if the programme asks for a fourth article or one of the three
-fails:
+Planned beyond the three articles, for a fourth if the programme asks for
+one or to replace a study that cannot be completed:
 
 - Generative AI and the one-person freedom-tech project: mining of Bitcoin
   and Nostr repositories for solo maintainers, contributor survival and
@@ -208,17 +207,18 @@ fails:
 
 ## Venues
 
-Each venue has a Publication Forum (JUFO) level of at least 1, so it counts
-in Finnish evaluation. Acceptance rates are the venues' own figures.
+Each venue publishes work on the topic or its methods and has a Publication
+Forum (JUFO) level of at least 1. Acceptance rates, the venues' own figures,
+inform the timetable.
 
 | Article | First choice | Fallback |
 |---|---|---|
 | I | HICSS cybercrime minitrack, run until at least 2025 with a focus on the dark web and blockchain (JUFO 1; 46.6% overall, year not stated) | Internet Policy Review (JUFO 1), Ledger (JUFO 1) |
 | II | Information Research (JUFO 2) | Proceedings of ASIS&T (JUFO 1), CSCW (JUFO 2; 30.5% in 2026) |
 | III | CHASE (JUFO 1; 35% in 2025) or ICSE SEIS (34% in 2023) | HICSS (JUFO 1) |
-| Reserve | MSR (JUFO 1; 29% in 2025) | Financial Cryptography workshops (LNCS, JUFO 1) |
+| Further | MSR (JUFO 1; 29% in 2025) | Financial Cryptography workshops (LNCS, JUFO 1) |
 
-IEEE ICBC and Frontiers in Blockchain are level 0 and count for nothing.
+IEEE ICBC and Frontiers in Blockchain are left out: both are at JUFO level 0.
 
 ## Ethics and data
 
@@ -245,7 +245,7 @@ Part-time, six years:
 - 2028: interview campaign with relay operators and developers; Article II
   submitted.
 - 2029: Article III submitted; coursework completed.
-- 2030: overview drafted; reserve article only if needed.
+- 2030: overview drafted; a fourth article only if the programme asks for one.
 - 2031: overview finished; pre-examination.
 - 2032: public defence.
 

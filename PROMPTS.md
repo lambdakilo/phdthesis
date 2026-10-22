@@ -5,9 +5,21 @@ with its commit and pull request. Square brackets mark what was left out or reda
 commit without a prompts section is left out. This file is generated from the commit messages,
 so a change by hand is lost at the next commit.
 
+## Reword the plan's programme section for a supervisor reader
+
+2026-10-22, [the commit that last changed this file](https://github.com/lambdakilo/phdthesis/commits/main/PROMPTS.md), model claude-opus-5-5, effort xhigh.
+
+**10.**
+> [a question about a supervision email, left out: it names candidates
+> the repository keeps private]
+
+**11.**
+> yes, reword plan.md so the route section reads well to a supervisor,
+> then commit and push
+
 ## Retarget the plan at the shortest route to a doctorate
 
-2026-10-20, [the commit that last changed this file](https://github.com/lambdakilo/phdthesis/commits/main/PROMPTS.md), model claude-opus-5-5, effort xhigh.
+2026-10-20, commit [7418ec2](https://github.com/lambdakilo/phdthesis/commit/7418ec21d639859309413acc8db0e1891e4d5376), model claude-opus-5-5, effort xhigh.
 
 **9.**
 > [left out at the user's request]
