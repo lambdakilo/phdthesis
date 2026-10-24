@@ -18,10 +18,17 @@ Build the overview alone:
 make summary DOCKER=1
 ```
 
-A build passes when latexmk exits 0 and this prints nothing:
+A build passes when latexmk exits 0 and the log of the job it built has no
+undefined references. After the thesis build, this prints nothing:
 
 ```sh
 grep -i "undefined" build/thesis.log
+```
+
+After the overview build, which `make print` runs too:
+
+```sh
+grep -i "undefined" build/summary.log
 ```
 
 After a change to `preamble/`, `thesis.tex`, `frontmatter/` or a list or float

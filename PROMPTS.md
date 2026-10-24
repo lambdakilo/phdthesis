@@ -5,9 +5,15 @@ with its commit and pull request. Square brackets mark what was left out or reda
 commit without a prompts section is left out. This file is generated from the commit messages,
 so a change by hand is lost at the next commit.
 
-## Look at the rendered pages after a layout change
+## Check the summary build's own log for undefined references
 
 2026-10-24, [the commit that last changed this file](https://github.com/lambdakilo/phdthesis/commits/main/PROMPTS.md), model claude-opus-5-5, effort xhigh.
+
+**4.** Quoted under [8d3aa36](https://github.com/lambdakilo/phdthesis/commit/8d3aa36072fd810345ef20116fc2fa3278cfc045).
+
+## Look at the rendered pages after a layout change
+
+2026-10-24, commit [8d3aa36](https://github.com/lambdakilo/phdthesis/commit/8d3aa36072fd810345ef20116fc2fa3278cfc045), model claude-opus-5-5, effort xhigh.
 
 **4.**
 > [a request to review Claude Code's dream proposals left out]
