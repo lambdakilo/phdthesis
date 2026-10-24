@@ -24,6 +24,19 @@ A build passes when latexmk exits 0 and this prints nothing:
 grep -i "undefined" build/thesis.log
 ```
 
+After a change to `preamble/`, `thesis.tex`, `frontmatter/` or a list or float
+in `chapters/`, also look at the pages: a third font, stray italics or drifting
+labels leave nothing in the log. Neither macOS nor the TeX Live image ships
+poppler or mutool, so `tools/pages.swift` renders with PDFKit, one PNG per page
+and sheets of 32:
+
+```sh
+swift tools/pages.swift build/thesis.pdf build/pages
+```
+
+Read the sheets, then the changed pages at full size. Text uses only the two
+families `preamble/layout.tex` sets.
+
 `\DocumentMetadata` turns on LaTeX's new list code, which rejects enumitem's
 keys, so the PDF language is set through hyperref instead.
 
